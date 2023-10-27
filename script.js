@@ -18,7 +18,7 @@ function inflationCalculator() {
 
     let newElement = document.createElement('div'); // pravimo novi element tipa div
     newElement.className = 'new-value'; // dodeljujemo nasem elementu klasu
-    newElement.innerText = `Danasnjih ${novac} evra ce za ${godine} godina, ako je kamatna stopa ${stopa}, vredeti ${vrednost_posle}`;
+    newElement.innerText = `Todays ${novac}€, in ${godine} years, if the inflation rate is ${stopa}%, will be worth ${vrednost_posle}€`;
     
     document.querySelector('.container').appendChild(newElement);
     
